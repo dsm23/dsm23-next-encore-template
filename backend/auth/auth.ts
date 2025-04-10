@@ -13,7 +13,7 @@ export const login = api(
     // ... create and sign a token ...
 
     return { token: "dummy-token" };
-  }
+  },
 );
 
 interface AuthParams {
@@ -35,7 +35,7 @@ export const myAuthHandler = authHandler(
     }
 
     return { userID: "dummy-user-id" };
-  }
+  },
 );
 
 export const gateway = new Gateway({ authHandler: myAuthHandler });

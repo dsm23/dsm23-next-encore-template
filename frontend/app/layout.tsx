@@ -29,7 +29,11 @@ export default function RootLayout({
           <nav className="h-navBar bg-black text-white flex items-center justify-between p-5">
             <div className="flex items-center">
               {navLinks.map(({ href, label }) => (
-                <Link className="mr-8 text-inherit hover:underline" key={href} href={href}>
+                <Link
+                  className="mr-8 text-inherit hover:underline"
+                  key={href}
+                  href={href}
+                >
                   {label}
                 </Link>
               ))}
