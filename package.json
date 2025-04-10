@@ -1,0 +1,9 @@
+{
+  "name": "dsm23-next-encore-template",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "exit 0"
+  }
+}
