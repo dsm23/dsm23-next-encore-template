@@ -4,10 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "fmt": "prettier --write .",
+    "fmt.check": "prettier --check .",
     "test": "exit 0"
   },
   "devDependencies": {
     "commitizen": "^4.3.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "prettier": "^3.5.3"
   }
 }

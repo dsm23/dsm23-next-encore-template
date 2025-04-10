@@ -1,6 +1,6 @@
 # Next.js + Encore TS Web App Starter
 
-This is an [Encore](https://encore.dev/) + [Next.js](https://nextjs.org/) project starter. It's a great way to learn how to combine Encore's backend 
+This is an [Encore](https://encore.dev/) + [Next.js](https://nextjs.org/) project starter. It's a great way to learn how to combine Encore's backend
 capabilities with a modern web framework — perfect for building a web app.
 
 ## Clone this example
@@ -29,9 +29,8 @@ encore run # Inside the backend directory
 
 4. In the `frontend/package.json`, replace `{{ENCORE_APP_ID}}` with the ID of your Encore application. You can see the app id in the `encore.app` file.
 
-
 5. Open a new terminal window and generate a new request client:
-    
+
 ```bash
 npm run gen # Inside the frontend directory
 ```
@@ -39,11 +38,13 @@ npm run gen # Inside the frontend directory
 ### Running locally
 
 Run your Encore backend:
+
 ```bash
 encore run # Inside the backend directory
 ```
 
 In a different terminal window, run the Next.js frontend:
+
 ```bash
 cd frontend
 npm install
@@ -102,7 +103,7 @@ global_cors: {
   "allow_origins_without_credentials": [
     "<ORIGIN-GOES-HERE>"
   ],
-        
+
   // allow_origins_with_credentials specifies the allowed origins for requests
   // that include credentials. If a request is made from an Origin in this list
   // Encore responds with Access-Control-Allow-Origin: <Origin>.

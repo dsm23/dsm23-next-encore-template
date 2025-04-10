@@ -2,13 +2,9 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "target": "ES2022",
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "paths": {
-      "~encore/*": [
-        "./encore.gen/*"
-      ]
+      "~encore/*": ["./encore.gen/*"]
     },
     /* Workspace Settings */
     "composite": true,
@@ -17,11 +13,7 @@
     "declaration": true,
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -39,13 +31,6 @@
       }
     ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

@@ -1,4 +1,4 @@
-import type {Config} from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        black: '#111111',
-        white: '#EEEEE1',
+        black: "#111111",
+        white: "#EEEEE1",
       },
     },
   },
