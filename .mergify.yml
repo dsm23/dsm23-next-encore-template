@@ -8,6 +8,7 @@ pull_request_rules:
       - check-success=dependency-review
       - check-success=format
       - check-success=gitleaks
+      - check-success=pr-title
       - check-success=zizmor
     actions:
       review:
@@ -21,6 +22,7 @@ pull_request_rules:
       - check-success=dependency-review
       - check-success=format
       - check-success=gitleaks
+      - check-success=pr-title
       - check-success=zizmor
     actions:
       review:
@@ -34,6 +36,7 @@ pull_request_rules:
       - check-success=dependency-review
       - check-success=format
       - check-success=gitleaks
+      - check-success=pr-title
       - check-success=zizmor
       - "#approved-reviews-by>=1"
     actions:
