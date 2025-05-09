@@ -4,14 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check-types": "tsc --noEmit",
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "test": "exit 0"
   },
   "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.3",
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=22.0.0"
